@@ -167,6 +167,7 @@ return Drag
 
 ##资源下载
 [Demo下载](http://pan.baidu.com/s/1hq3XNX6)
+
 [组件生成器](http://pan.baidu.com/s/1jG5VFIu)
 
 ##关于作者
