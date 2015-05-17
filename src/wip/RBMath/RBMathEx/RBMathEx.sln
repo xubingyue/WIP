@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RBMathEx", "RBMathEx.vcxproj", "{A90BA6C0-6027-4FBE-AF99-A2B4A3EACE69}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "..\Test\Test.vcxproj", "{835B3F9C-5594-4C04-89E9-9F15CA8CF205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A90BA6C0-6027-4FBE-AF99-A2B4A3EACE69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A90BA6C0-6027-4FBE-AF99-A2B4A3EACE69}.Debug|Win32.Build.0 = Debug|Win32
+		{A90BA6C0-6027-4FBE-AF99-A2B4A3EACE69}.Release|Win32.ActiveCfg = Release|Win32
+		{A90BA6C0-6027-4FBE-AF99-A2B4A3EACE69}.Release|Win32.Build.0 = Release|Win32
+		{835B3F9C-5594-4C04-89E9-9F15CA8CF205}.Debug|Win32.ActiveCfg = Debug|Win32
+		{835B3F9C-5594-4C04-89E9-9F15CA8CF205}.Debug|Win32.Build.0 = Debug|Win32
+		{835B3F9C-5594-4C04-89E9-9F15CA8CF205}.Release|Win32.ActiveCfg = Release|Win32
+		{835B3F9C-5594-4C04-89E9-9F15CA8CF205}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

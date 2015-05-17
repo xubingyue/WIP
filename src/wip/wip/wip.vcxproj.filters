@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{b366bcf5-147f-4d98-b5ce-8bddd6017c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{3ae32dc0-a914-46e5-8b9c-08fe92ca9fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animator">
+      <UniqueIdentifier>{6848fb60-1b23-469d-baaa-163e20fbdb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{91acfd14-4ca2-4833-b4e4-b2298e630ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{fb36a17b-abf5-48e4-8a81-cd2ab9b9f82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{fb8f0e4f-7dfb-4259-8e63-83c67a14870b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{26947dfb-af5e-418f-81bf-b5a4c3f2e112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{4f316fae-79b1-481c-a6a9-5e3dcaa51042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Lua">
+      <UniqueIdentifier>{11af65c0-522a-4db9-93e8-7cd6631c4644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\CSharp">
+      <UniqueIdentifier>{32a8369e-9620-42f7-b6a0-d09ae30c6029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{f34a3b02-726d-41ee-91b8-4e89dba8e689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{e35ff0d7-0b64-429c-b144-6947d64c6f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{23226efd-22d1-4b0e-91c4-1860e40c0ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component">
+      <UniqueIdentifier>{54702f0c-188c-4596-b72c-e1b44df9b5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Common">
+      <UniqueIdentifier>{10e151a1-4e1e-46a9-a4dc-ac54b6ace4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discarded">
+      <UniqueIdentifier>{86135114-8a1d-4a3f-8ad9-450f390b1b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{11a5faf0-2bb4-420a-9e3f-ac86798e2582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\cases">
+      <UniqueIdentifier>{826fc515-4521-4840-997e-f4522fbf45db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{bfad6534-912f-4e3f-8673-7afb68562bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{e13834ce-cb56-4bab-b202-df186cdb1b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{77d37531-12ad-4a1c-b836-649a479ee405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{14ec2137-12ec-4ccb-9c03-a0d6a9090412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{fe03c335-f999-4bad-a0cb-c26106cb1e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventChain">
+      <UniqueIdentifier>{65066edd-5e68-4e11-b0b1-ca63a2dd44af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\3DAddon">
+      <UniqueIdentifier>{c498698d-3fc3-4326-8de6-a7ee404c26c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\cases">
+      <UniqueIdentifier>{bf52a81b-b040-4067-9ee5-a37718d5ad06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\cases\gpu_fft">
+      <UniqueIdentifier>{657a9950-3793-41be-89eb-3caabd5cad2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\flyUI\ActiveDrawableRect.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\flyUI\BasePanel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\flyUI\BaseWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\flyUI\ButtonWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\flyUI\PictureWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\flyUI\ScrollerWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\flyUI\SwitchWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\flyUI\TouchWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AnimationClip.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AnimationEvent.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AnimationManager.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AnimationQueue.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Animator.cpp">
+      <Filter>Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AppManager.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExtraTool.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logger.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PathTool.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BackGroundLayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Layer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ObjectsLayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UILayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZoneLayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BaseTexture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TextManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LuaAPI.cpp">
+      <Filter>Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LuaUI.cpp">
+      <Filter>Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ScriptManager.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Clock.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CTimeSource.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TimeSystem.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Win32TimeSource.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Collider.cpp">
+      <Filter>Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mesh.cpp">
+      <Filter>Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpriteFrame.cpp">
+      <Filter>Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Color32.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Colorf.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FrameBox.cpp">
+      <Filter>Object\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ft3.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OggStream.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SoundHelper.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SoundPlayer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenGL.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Renderable.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RenderBatch.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RenderPack.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RenderPool.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RenderQuad.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PhysicxManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Quadtree.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RenderTexture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ResourceManager.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shader.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SkeletonDrawable.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine-wip.cpp">
+      <Filter>Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sprite.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\testgl.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TextCanvas.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\user.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SoundBase.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Model3D.cpp">
+      <Filter>Renderer\3DAddon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ModelLoader.cpp">
+      <Filter>Renderer\3DAddon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\callbacks.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShaderFFT.cpp">
+      <Filter>User\cases\gpu_fft</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\flyUI\ActiveDrawableRect.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\BasePanel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\BaseWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\ButtonWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\define.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\PictureWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\ScrollerWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\SwitchWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\flyUI\TouchWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AnimationClip.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AnimationEvent.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AnimationManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AnimationQueue.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Animator.h">
+      <Filter>Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AppManager.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assertion.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExtraTool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LinkList.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logger.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PathTool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BackGroundLayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Layer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ObjectsLayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UILayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ZoneLayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BaseTexture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TextManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaAPI.h">
+      <Filter>Script\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaUI.h">
+      <Filter>Script\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ScriptManager.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Camera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Clock.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CTimeSource.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TimeSource.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Win32TimeSource.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Collider.h">
+      <Filter>Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mesh.h">
+      <Filter>Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpriteFrame.h">
+      <Filter>Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Color32.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Colorf.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\classTest.h">
+      <Filter>Test\cases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ESEmer.h">
+      <Filter>Discarded</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FrameBox.h">
+      <Filter>Object\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ft3.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glfw.h">
+      <Filter>Test\cases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ITimeObserver.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KeyDefinetions.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\newtest.h">
+      <Filter>Test\cases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OggStream.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoundHelper.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoundPlayer.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Renderable.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RenderBatch.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RenderPack.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RenderPool.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RenderQuad.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Quadtree.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RenderTexture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ResourceManager.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shader.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SkeletonDrawable.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sort_test.h">
+      <Filter>Test\cases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sprite.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TextCanvas.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\user.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win32.h">
+      <Filter>Discarded</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wip_test.h">
+      <Filter>Test\cases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIPEventChain.h">
+      <Filter>EventChain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoundBase.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Model3D.h">
+      <Filter>Renderer\3DAddon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vmath.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModelLoader.h">
+      <Filter>Renderer\3DAddon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\callbacks.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spinetest.h">
+      <Filter>User\cases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\boxman.h">
+      <Filter>User\cases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gpu_fft.h">
+      <Filter>User\cases\gpu_fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShaderFFT.h">
+      <Filter>User\cases\gpu_fft</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\flyUI\Readme.txt">
+      <Filter>UI</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Readme.md" />
+  </ItemGroup>
+</Project>

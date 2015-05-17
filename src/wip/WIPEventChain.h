@@ -1,0 +1,4 @@
+/*
+These file are ready for surpport the EventChain System.
+Every objects which contain a EventChain component will be involved in the evolution of the Real World emulator
+*/

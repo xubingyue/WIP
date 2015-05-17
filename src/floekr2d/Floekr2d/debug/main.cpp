@@ -1,0 +1,8 @@
+//#include"mathTest.h"
+//#include "memoryTest.h"
+//#include "collisionTest.h"
+//#include "timerTest.h"
+//#include "listTest.h"
+//#include "spaceTest.h"
+#include "fullTest.h"
+//#include "luaTest.h"
