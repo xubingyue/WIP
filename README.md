@@ -33,7 +33,7 @@
 
 
 ##如何编译
-* 下载依赖项[Deps(正在上传ing)]()解压覆盖到./
+* 下载依赖项[Deps](http://pan.baidu.com/s/1kTra999)解压覆盖到./
 * 用VS2012打开./src/wip/wip.sln
 * 生成即可。
 
@@ -150,9 +150,11 @@ end
 return Drag
 ```
 
-3、运行./bin/wip.exe，查看效果.
+3、安装./bin中的oalinst.exe文件，这是OpenAL。
 
-4、你可以通过修改源代码，来修改或者添加LuaAPI，方法如下：
+4、运行./bin/wip.exe，查看效果.
+
+5、你可以通过修改源代码，来修改或者添加LuaAPI，方法如下：
 
 [LuaAPI修改方法]()
 
@@ -163,7 +165,7 @@ return Drag
 
 
 ##资源下载
-[Demo下载]()
+[Demo下载](http://pan.baidu.com/s/1hq3XNX6)
 
 ##关于作者
 ```cpp
