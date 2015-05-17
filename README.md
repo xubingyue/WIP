@@ -1,6 +1,6 @@
 ![WIP](https://github.com/wubugui/WIP/blob/master/pic/pic.bmp)
 ##是什么?
-他是一个简单的2D游戏引擎。我初学游戏开发的时候写的。
+他是一个简单的2D游戏引擎,初学游戏开发的时候写的。
 
 
 ##有哪些功能?
@@ -102,7 +102,7 @@
 	</scene>
 </wip>
 ```
-上述代码构建了如下场景，具体使用见文档
+上述代码构建了如下场景，具体使用见文档 https://github.com/wubugui/WIP/wiki
 
 2、参考API手册，为对象编使用Lua写自定义组件，例如上面的UIDemo组件，下面是一个简单的Drag组件的代码
 
