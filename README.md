@@ -2,6 +2,8 @@
 ##是什么?
 他是一个简单的2D游戏引擎。我初学游戏开发的时候写的。
 
+[osc镜像]()
+
 ##有哪些功能?
 * 数据驱动的游戏对象系统
 * 基于Lua的脚本编程
@@ -156,12 +158,12 @@ return Drag
 
 5、你可以通过修改源代码，来修改或者添加LuaAPI，方法如下：
 
-[LuaAPI修改方法]()
+[LuaAPI修改方法](https://github.com/wubugui/WIP/wiki/%E4%BF%AE%E6%94%B9%E6%B7%BB%E5%8A%A0LuaAPI)
 
 
 具体请参考：
 
-[使用方法]()
+[使用方法](https://github.com/wubugui/WIP/wiki/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%9C%BA%E6%99%AF)
 
 
 ##资源下载
@@ -177,3 +179,6 @@ me.site = "http://www.cnblogs.com/wubugui/";
 
 ```
 欢迎批评指导吐槽。
+
+##Any More
+[OSC镜像](https://git.oschina.net/JustKiss/WIPEngine)
