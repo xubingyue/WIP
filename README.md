@@ -165,6 +165,15 @@ return Drag
 
 [使用方法](https://github.com/wubugui/WIP/wiki/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%9C%BA%E6%99%AF)
 
+##文件结构
+
+下面要对几个关键的文件做说明：
+
+./bin/是可执行文件是可以独立运行。
+
+./bin/engine/script/存放引擎自带的脚本文件，这些文件一般不需要修改，自定义的脚本都在./bin/script中，其中只有config.lua是必须的文件，这个文件确定了一些初试化参数。
+
+./bin/resources/存放资源，一般没有特别的规定，./bin/resources/UI是默认的UI素材，自定义UI的时候才会去修改。
 
 ##资源下载
 [Demo下载](http://pan.baidu.com/s/1hq3XNX6)
