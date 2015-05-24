@@ -169,11 +169,11 @@ return Drag
 
 下面要对几个关键的文件做说明：
 
-'./bin/'是可执行文件是可以独立运行。
+`./bin/`是可执行文件是可以独立运行。
 
-'./bin/engine/script/'存放引擎自带的脚本文件，这些文件一般不需要修改，自定义的脚本都在'./bin/script/'中，其中只有'config.lua'是必须的文件，这个文件确定了一些初试化参数。
+`./bin/engine/script/`存放引擎自带的脚本文件，这些文件一般不需要修改，自定义的脚本都在`./bin/script/`中，其中只有`config.lua`是必须的文件，这个文件确定了一些初试化参数。
 
-'./bin/resources/'存放资源，一般没有特别的规定，'./bin/resources/UI/'是默认的UI素材，自定义UI的时候才会去修改。
+`./bin/resources/`存放资源，一般没有特别的规定，`./bin/resources/UI/`是默认的UI素材，自定义UI的时候才会去修改。
 
 ##资源下载
 [Demo下载](http://pan.baidu.com/s/1hq3XNX6)
