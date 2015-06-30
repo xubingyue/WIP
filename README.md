@@ -42,6 +42,9 @@
 如果使用其他版本的VS可能需要从新编译lib。
 
 ##如何使用
+
+你可以在此下载这个Flappybird的游戏例子进行参考:[游戏范例](http://pan.baidu.com/s/1kTDx98j)
+
 1、在xml中构建场景，例如
 
 ```xml
