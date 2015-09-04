@@ -1,6 +1,6 @@
 ![WIP](https://github.com/wubugui/WIP/blob/master/pic/pic.bmp)
 ##是什么?
-他是一个简单的2D游戏引擎,初学游戏开发的时候写的。
+他是一个简单的2D游戏引擎原型。
 现在正在使用WPF实现一个编辑器工具。
 
 
