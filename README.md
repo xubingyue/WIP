@@ -198,9 +198,9 @@ return Drag
 ```cpp
 #include "author.h"
 Author me;
-me.name = "乌不归";
+me.name = "Claire's Wallet";
 me.e_mail = "wubuguiqazwsx@126.com";
-me.site = "http://www.cnblogs.com/wubugui/";
+me.site = "http://claireswallet.farbox.com/";
 
 ```
 欢迎批评指导吐槽。
