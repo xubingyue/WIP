@@ -1,6 +1,6 @@
 ![WIP](https://github.com/wubugui/WIP/blob/master/pic/pic.bmp)
 ##是什么?
-他是一个简单的2D游戏引擎原型。
+他是一个简单的2D游戏引擎原型，做这个引擎是为了完成一个冒险解密游戏（即将push）。
 现在正在实现一个编辑器工具[TattyUI](https://github.com/BentleyBlanks/TattyUI)。
 
 
@@ -13,7 +13,9 @@
 ##能干嘛?
 可以尝试使用他来做游戏，但是由于他没有编辑器，所以相当麻烦。
 
-我更多时候是在学习的时候使用他来做一些demo。
+我原本在更多时候是在学习的时候使用他来做一些demo。
+
+在不久的时间内将会有一大波改写和重写以使其可以符合完成游戏的要求。
 
 下面是截图：
 
@@ -182,6 +184,15 @@ return Drag
 [Demo下载](http://pan.baidu.com/s/1hq3XNX6)
 
 [组件生成器](http://pan.baidu.com/s/1jG5VFIu)
+
+
+##TODO List
+-	全新的渲染器（基于DirectX11）
+-	部分3D能力（视项目而定）
+-	新的骨骼动画系统（2DIK）
+-	工具链（包括场景编辑器、动画编辑器）
+-	效率提升
+
 
 ##关于作者
 ```cpp
