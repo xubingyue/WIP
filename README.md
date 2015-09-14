@@ -206,4 +206,4 @@ me.site = "http://www.cnblogs.com/wubugui/";
 欢迎批评指导吐槽。
 
 ##Any More
-[OSC镜像](https://git.oschina.net/JustKiss/WIPEngine)
+[OSC镜像](https://git.oschina.net/JustKiss/WIPEngine)  -- 已停止更新
