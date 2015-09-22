@@ -110,6 +110,41 @@
 ```
 上述代码构建了如下场景，具体使用见文档 https://github.com/wubugui/WIP/wiki
 
+这个xml格式比较冗长，下个版本会有类似这样的xml格式：
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<wip version="0.125">
+  <scene sceneName="XXXScene">
+    <object objectName="XXName" active="false" assets="resources/bg.jpg">
+      <transform active="true">
+        <position x="1.111" y="2.222" z="3.333"/>
+        <rotation rad="10.1"/>
+        <scale x="1" y="1"/>
+      </transform>
+      <components>
+        <componentName active="true">
+          <property1 value1="v1" value2="v2"/>
+          <property2 value1="v1" value2="v2"/>
+        </componentName>
+      </components>
+    </object>
+
+    <ui uiName="XXName" active="true" type="Button">
+      <transform active="true">
+        <position x="1.111" y="2.222" z="3.333"/>
+        <rotation rad="10.1"/>
+        <scale x="1" y="1"/>
+      </transform>
+      <resources r1="resources/UI/Btn_Back_Down.png" r2="resources/UI/Btn_Back_Normal.png" r3="resources/UI/Btn_Back_Move.png"/>
+      <events>
+      </events>
+    </ui>
+
+  </scene>
+</wip>
+```
+
 2、参考API手册，为对象编使用Lua写自定义组件，例如上面的UIDemo组件，下面是一个简单的Drag组件的代码
 
 ```cpp
